@@ -5,309 +5,297 @@
 --
 
 
-insert into products (name, description, code, price) values ('French Film', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Arabian Nights', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '075154025-0', 11, 11, 10, 10, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('La Legge Violenta Della Squadra Anticrimine', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', '953554409-8', 14, 14, 13, 13, 14, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('To the Left of the Father (Lavoura Arcaica)', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
 
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '816905633-0', 10.5);
-insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '995648851-8', 14.5, 10, 11, 12, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Alibi', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '069950283-7', 10.5, 10, 11, 14, 14, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Die Fischerin', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
 
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+Fusce consequat. Nulla nisl. Nunc nisl.', '733108710-X', 12, 12, 12, 14, 12, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Island President, The', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '335430880-X', 13.5, 14, 11, 12, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('All Tomorrow''s Parties', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
 
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '077030122-3', 11);
-insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '484804557-6', 11.5, 12, 12, 12, 11, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Christmas Story, A', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '411256643-3', 10.5, 10, 11, 10, 12, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Theodore Rex', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '445924201-X', 13.5);
-insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', '479788061-9', 14, 10, 13, 13, 13, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Fine Madness, A', 'Fusce consequat. Nulla nisl. Nunc nisl.
 
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '693155505-7', 13.5);
-insert into products (name, description, code, price) values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
-insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', '988329960-5', 15, 12, 13, 11, 14, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Laffghanistan: Comedy Down Range', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '492662523-7', 14);
-insert into products (name, description, code, price) values ('Charlotte''s Web', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '194424007-1', 11, 14, 10, 10, 14, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('The Man from Acapulco', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
-Fusce consequat. Nulla nisl. Nunc nisl.
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', '313191299-5', 10.5);
-insert into products (name, description, code, price) values ('Treatment, The', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '212269895-0', 12, 14, 14, 11, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Star Trek V: The Final Frontier', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '744135965-1', 14, 10, 13, 12, 11, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Croods, The', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '123989705-7', 10.5);
-insert into products (name, description, code, price) values ('Blind Fury', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+In congue. Etiam justo. Etiam pretium iaculis justo.', '555013391-1', 15, 11, 11, 13, 10, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Somebody is Waiting', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '917165206-X', 15);
-insert into products (name, description, code, price) values ('Gothic', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '158335316-X', 13);
-insert into products (name, description, code, price) values ('Hoot', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '700248042-1', 14, 10, 12, 11, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Border Incident', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '648534601-5', 12, 14, 11, 11, 12, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Brenda Starr', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', '406911007-0', 12);
-insert into products (name, description, code, price) values ('Syrup', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '398913206-7', 10.5, 12, 11, 14, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Catwoman', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '991218244-8', 12.5, 13, 12, 14, 10, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Lightning Jack', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
 
-In congue. Etiam justo. Etiam pretium iaculis justo.
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '301294270-X', 14, 10, 11, 10, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Vinci', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
 
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '547253543-3', 14);
-insert into products (name, description, code, price) values ('Edukators, The (Die Fetten Jahre sind vorbei)', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', '800261959-5', 14, 13, 10, 10, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Brasher Doubloon, The', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
 
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '690994502-6', 10.5);
-insert into products (name, description, code, price) values ('Modesty Blaise', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', '255875505-6', 13.5, 14, 12, 12, 12, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('He Walked by Night', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '366317873-0', 13.5, 13, 11, 13, 13, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Blue Angel, The (Blaue Engel, Der)', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', '673633021-1', 13, 12, 10, 10, 14, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Muriel, or The Time of Return (Muriel ou Le temps d''un retour)', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '699238281-0', 11, 12, 13, 10, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('People of the Wind', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '468876048-5', 11, 10, 14, 12, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Girls, Les', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', '073315855-2', 14, 10, 10, 14, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Aileen: Life and Death of a Serial Killer', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', '763184538-7', 11, 13, 11, 12, 11, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Ordinary Decent Criminal', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', '087685554-0', 14.5, 11, 11, 14, 11, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Shrek the Third', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', '829882263-3', 14, 12, 14, 14, 12, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Fountain, The', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '838606116-2', 14.5, 12, 13, 11, 11, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Border Run (Mule, The)', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '077428256-8', 13, 10, 11, 12, 11, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Babe', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', '345772684-1', 10.5, 10, 14, 14, 12, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Jewel of the Nile, The', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', '260196105-8', 10.5, 10, 13, 10, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Streetcar Named Desire, A', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', '791046469-X', 10.5, 10, 10, 12, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Changing Sides (De l''autre côté du lit)', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '322696409-7', 12.5, 12, 13, 14, 14, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Nomad (Köshpendiler)', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', '226551751-8', 11.5, 14, 10, 12, 13, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Scream', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', '398937947-X', 11.5, 11, 12, 11, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('River Why, The', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
 
 Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
 
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '676124066-2', 12.5);
-insert into products (name, description, code, price) values ('Les modèles de ''Pickpocket''', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '316739747-0', 10.5, 10, 14, 13, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Bad Teacher', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
 
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '457174385-8', 14);
-insert into products (name, description, code, price) values ('Happy New Year', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', '282952179-X', 11, 10, 13, 11, 12, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Kundun', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
 
 In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '031445258-3', 13.5);
-insert into products (name, description, code, price) values ('Road to Perdition', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '719322921-4', 12.5);
-insert into products (name, description, code, price) values ('Wild Heritage', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '514202783-3', 14.5);
-insert into products (name, description, code, price) values ('Godzilla vs. Mechagodzilla (Gojira tai Mekagojira)', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '342190675-0', 15, 11, 13, 13, 12, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Pajama Party', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+In congue. Etiam justo. Etiam pretium iaculis justo.
 
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '185213824-6', 14.5);
-insert into products (name, description, code, price) values ('Nocturna Artificialia', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '229696258-0', 11.5);
-insert into products (name, description, code, price) values ('White Night (Hvid nat)', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', '462606529-5', 12);
-insert into products (name, description, code, price) values ('Streets of Laredo', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '094829684-4', 12.5);
-insert into products (name, description, code, price) values ('White Sheik, The (Sceicco bianco, Lo)', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '757434486-8', 13.5);
-insert into products (name, description, code, price) values ('Cyberbully', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '797477182-8', 13, 12, 10, 10, 12, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Anchors Aweigh', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
 
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '531150277-0', 14.5);
-insert into products (name, description, code, price) values ('Gray''s Anatomy', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '986181958-4', 12.5, 12, 13, 12, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Frankenfish', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', '891005079-9', 10.5);
-insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '462458388-4', 11.5);
-insert into products (name, description, code, price) values ('Lucky Break (a.k.a. Paperback Romance)', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', '724683964-X', 10.5);
-insert into products (name, description, code, price) values ('Elvis: That''s the Way It Is', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+In congue. Etiam justo. Etiam pretium iaculis justo.', '161843572-8', 11, 12, 11, 12, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Nomi Song, The', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
 Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '650761175-1', 14.5);
-insert into products (name, description, code, price) values ('High Risk', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '045934636-9', 14.5);
-insert into products (name, description, code, price) values ('Rosenstrasse', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '475986075-4', 14, 10, 10, 11, 13, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Big Miracle', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', '507262725-X', 14.5, 11, 10, 14, 10, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Casualties of War', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '543151356-7', 15, 11, 13, 13, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Dark Blue', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '605859522-3', 12, 14, 10, 11, 14, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Ellen DeGeneres: The Beginning', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '819128877-X', 14, 13, 12, 14, 14, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Thunderbird Six', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
 
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', '157794386-4', 10.5);
-insert into products (name, description, code, price) values ('24 Hour Woman, The', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', '730818256-8', 13);
-insert into products (name, description, code, price) values ('Autumn Tale, An (Conte d''automne)', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '117784241-6', 11.5, 14, 10, 13, 14, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Yellow Cab Man, The', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', '176779287-5', 10.5);
-insert into products (name, description, code, price) values ('Blood on the Moon', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '684348302-X', 10.5);
-insert into products (name, description, code, price) values ('Peter Pan', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '699321117-3', 12);
-insert into products (name, description, code, price) values ('Love Happens', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', '735396683-1', 11.5);
-insert into products (name, description, code, price) values ('Three Came Home', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
 
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', '512191540-3', 12.5);
-insert into products (name, description, code, price) values ('Bio-Dome', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '417577919-1', 12.5);
-insert into products (name, description, code, price) values ('Tom Segura: Completely Normal', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', '937737230-5', 12);
-insert into products (name, description, code, price) values ('New York, New York', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '979057050-3', 11);
-insert into products (name, description, code, price) values ('Psychopath, The', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', '717253696-7', 14.5, 11, 13, 14, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Rails & Ties', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
 
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '878961608-1', 14);
-insert into products (name, description, code, price) values ('Second in Command', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
 
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '329436997-2', 10.5);
-insert into products (name, description, code, price) values ('Tennessee Johnson', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', '857130967-1', 11, 14, 11, 13, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Of Horses and Men', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '331351324-7', 13, 13, 13, 12, 13, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Terminator Salvation', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
 
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '686755926-3', 11);
-insert into products (name, description, code, price) values ('Eight Men Out', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '922942265-7', 10.5);
-insert into products (name, description, code, price) values ('Russendisko', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '348852688-7', 14.5);
-insert into products (name, description, code, price) values ('Bikes vs Cars', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', '653541902-9', 10.5);
-insert into products (name, description, code, price) values ('Drive, He Said', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '029885280-2', 14);
-insert into products (name, description, code, price) values ('Raanjhanaa', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '036267825-1', 14.5);
-insert into products (name, description, code, price) values ('Boys of St. Vincent, The', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', '065037466-5', 14);
-insert into products (name, description, code, price) values ('The Photographer', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '034987303-8', 11);
-insert into products (name, description, code, price) values ('Greatest Love, The (Europa ''51)', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '973722955-X', 12.5);
-insert into products (name, description, code, price) values ('Young in Heart, The', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '533095720-6', 14);
-insert into products (name, description, code, price) values ('Semi-Tough', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', '412073680-6', 11.5);
-insert into products (name, description, code, price) values ('Love Lasts Three Years (L''amour dure trois ans)', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', '942307674-2', 12.5);
-insert into products (name, description, code, price) values ('Blind Pig Who Wants to Fly (Babi buta yang ingin terbang)', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '206769299-2', 13.5);
-insert into products (name, description, code, price) values ('A Lesson Before Dying', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '481198200-2', 15);
-insert into products (name, description, code, price) values ('Percy Jackson & the Olympians: The Lightning Thief', 'Fusce consequat. Nulla nisl. Nunc nisl.', '648284439-1', 13.5);
-insert into products (name, description, code, price) values ('Flintstones, The', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', '843756710-6', 14);
-insert into products (name, description, code, price) values ('Shutter', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '506974407-0', 12.5);
-insert into products (name, description, code, price) values ('Huey P. Newton Story, A', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '419753939-8', 14);
-insert into products (name, description, code, price) values ('Carandiru', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '317965465-1', 10.5);
-insert into products (name, description, code, price) values ('12 Rounds 2: Reloaded', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '677435372-X', 13.5);
-insert into products (name, description, code, price) values ('Inside Job', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '609561726-X', 11.5);
-insert into products (name, description, code, price) values ('Rosewood Lane', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '348628366-9', 10.5);
-insert into products (name, description, code, price) values ('Black Robe', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '605472804-0', 12.5);
-insert into products (name, description, code, price) values ('There Was a Crooked Man...', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', '939886032-5', 11);
-insert into products (name, description, code, price) values ('Linda Linda Linda', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '486589895-6', 11.5);
-insert into products (name, description, code, price) values ('War and Peace (Voyna i mir)', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', '015827643-4', 15);
-insert into products (name, description, code, price) values ('Deal, The', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '703970759-4', 12.5);
-insert into products (name, description, code, price) values ('Kindred, The', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '351586761-9', 10.5);
-insert into products (name, description, code, price) values ('Second Wind (Le deuxième souffle) (Second Breath)', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '942002290-0', 11.5);
-insert into products (name, description, code, price) values ('Abominable Dr. Phibes, The', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', '722321386-8', 14);
-insert into products (name, description, code, price) values ('Crimson Gold (Talaye sorgh)', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '788853070-2', 12);
-insert into products (name, description, code, price) values ('Diary of a Madman', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '829535836-7', 12.5);
-insert into products (name, description, code, price) values ('Kocken', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', '690093900-7', 12.5);
-insert into products (name, description, code, price) values ('Guru, The', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '547726255-9', 14);
-insert into products (name, description, code, price) values ('Johnny Handsome', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', '453334233-7', 14);
-insert into products (name, description, code, price) values ('I Am a Fugitive from a Chain Gang', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', '322311517-X', 12.5);
-insert into products (name, description, code, price) values ('Harakiri', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', '670925427-5', 11);
-insert into products (name, description, code, price) values ('Laura', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '995744886-2', 14);
-insert into products (name, description, code, price) values ('In Your Hands (Forbrydelser)', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', '424828824-9', 14);
-insert into products (name, description, code, price) values ('Road to Utopia', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', '922374160-2', 14);
-insert into products (name, description, code, price) values ('Hamlet Goes Business (Hamlet liikemaailmassa)', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', '378987337-3', 14);
-insert into products (name, description, code, price) values ('Four Eyes and Six-Guns', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', '822048903-0', 13);
-insert into products (name, description, code, price) values ('Redline', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '197191054-6', 13.5);
-insert into products (name, description, code, price) values ('Stupid Boy (Garçon stupide)', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '194994525-1', 11.5);
-insert into products (name, description, code, price) values ('Chicago 8, The', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '950118568-0', 12);
-insert into products (name, description, code, price) values ('Rita, Sue and Bob Too!', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', '456624727-9', 11);
-insert into products (name, description, code, price) values ('Hundred and One Nights, A (Cent et une nuits de Simon Cinéma, Les)', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', '907383132-6', 10.5, 11, 11, 10, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Simone (S1m0ne)', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
 
 Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '856810231-X', 12);
-insert into products (name, description, code, price) values ('Wonderful World', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '332229766-7', 11, 12, 14, 13, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Great Texas Dynamite Chase, The', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '443219869-9', 10.5, 12, 12, 10, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('I Origins', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '637287909-3', 12.5);
-insert into products (name, description, code, price) values ('Simone (S1m0ne)', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', '280981452-X', 11, 14, 11, 13, 13, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Endangered Species', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '310442276-1', 11, 11, 12, 13, 14, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Cadillac Records', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', '072043937-X', 10.5, 11, 10, 12, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('The Pentagon Papers', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '861911677-0', 13);
-insert into products (name, description, code, price) values ('Wrath of the Titans', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '581830286-5', 12.5);
-insert into products (name, description, code, price) values ('Someone Like You (Unnaipol Oruvan)', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', '820968909-6', 11.5, 11, 12, 14, 13, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('The Man Who Played God', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
-Fusce consequat. Nulla nisl. Nunc nisl.
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
 
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', '220275078-9', 12);
-insert into products (name, description, code, price) values ('Four Men and a Prayer', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', '777424665-7', 12.5, 12, 13, 10, 11, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Bling Ring, The', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', '654262413-9', 10.5);
-insert into products (name, description, code, price) values ('Tokyo-Ga', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '716722372-7', 10.5, 11, 10, 11, 12, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Throw Down (Yau doh lung fu bong)', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
 
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '158150076-9', 15);
-insert into products (name, description, code, price) values ('By the Gun', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
 
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '439057644-5', 11);
-insert into products (name, description, code, price) values ('Family Resemblances (Un air de famille)', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', '084448207-2', 13.5, 13, 10, 10, 11, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Minnie and Moskowitz', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', '395529324-6', 12.5);
-insert into products (name, description, code, price) values ('Life and Adventures of Santa Claus, The', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
 
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', '813236726-X', 13, 10, 12, 10, 12, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('While You Were Sleeping', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
 
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '651860377-1', 14.5);
-insert into products (name, description, code, price) values ('Man of My Life, The (L''homme de sa vie)', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
 
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', '632949999-3', 14, 11, 14, 11, 10, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Too Many Cooks', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
 
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '973693633-3', 13.5);
-insert into products (name, description, code, price) values ('The Four Feathers', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '704137368-1', 13.5);
-insert into products (name, description, code, price) values ('First Daughter', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5);
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', '289397139-3', 11, 13, 11, 12, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Things Behind the Sun', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '683675675-X', 14, 12, 12, 13, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Weekend (a.k.a. Le Week-end) (Week End)', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '402569009-8', 12.5, 10, 12, 13, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Corto Maltese: The Guilded House of Samarkand (La maison dorée de Samarkand)', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', '158003761-5', 13, 11, 10, 14, 11, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Bloodsport', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '972162394-6', 14, 10, 10, 10, 11, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Monitors, The', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', '246996944-1', 12.5, 14, 14, 12, 12, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Megacities', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', '908200193-4', 11, 10, 10, 14, 11, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Lawless Breed, The', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', '836085939-6', 14.5, 12, 14, 13, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Stranger, The (Agantuk) (Visitor, The)', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', '601281824-6', 11, 13, 13, 12, 13, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('X: The Man with the X-Ray Eyes', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '816679387-3', 13, 11, 12, 10, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Cercle Rouge, Le (Red Circle, The)', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '533376830-7', 14.5, 10, 11, 12, 11, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('The Intruders', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '924087279-5', 12, 11, 12, 14, 13, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Daddy (Tato)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '683095342-1', 14, 10, 14, 12, 12, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Home from the Hill', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '213272295-1', 12, 12, 10, 12, 14, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Indian Runner, The', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '338749985-X', 11, 13, 11, 12, 14, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Blue Like Jazz', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '128618492-4', 13, 12, 12, 10, 12, 14);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Weight of Water, The', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', '365694104-1', 11.5, 13, 10, 10, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Badman''s Territory', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '316731701-9', 13.5, 14, 11, 12, 12, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Leviathan', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', '261494263-4', 15, 11, 13, 13, 11, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Traviata, La', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '932454550-7', 11, 14, 11, 11, 14, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('1, 2, 3, Sun (Un, deuz, trois, soleil)', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', '123608773-9', 13.5, 14, 11, 11, 11, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Terror Within, The', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '946966597-X', 13.5, 14, 10, 13, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Boat, The', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '712740651-0', 11.5, 11, 10, 13, 11, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Come Back to the Five and Dime, Jimmy Dean, Jimmy Dean', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', '730355953-1', 14.5, 12, 14, 14, 13, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Impromptu', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '538990104-5', 13.5, 11, 11, 11, 11, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Dead Ringers', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', '306196860-1', 12, 10, 11, 12, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('I Heart Huckabees', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '278972249-8', 11.5, 10, 12, 11, 11, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Mummy, The', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '168934366-4', 12, 12, 10, 12, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('We''re Not Dressing', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', '020212323-5', 10.5, 11, 10, 14, 14, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Agent Vinod', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', '426854588-3', 10.5, 10, 13, 14, 13, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Doctor Takes a Wife, The', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '706148133-1', 13, 12, 11, 12, 13, 13);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Six in Paris (Paris vu par...)', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '485391301-7', 11.5, 13, 11, 10, 14, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Where the Money Is', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', '036919092-0', 12, 14, 12, 10, 10, 12);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Pom Pom Girls, The', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '686574097-1', 11.5, 10, 10, 10, 10, 11);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Last Polka, The', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '986630216-4', 14.5, 13, 13, 11, 12, 10);
+insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Winnetou: The Red Gentleman', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '215230361-X', 14.5, 12, 13, 14, 12, 10);
