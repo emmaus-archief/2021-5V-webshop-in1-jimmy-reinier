@@ -5,6 +5,7 @@
 --
 
 
+
 insert into products (name, description, code, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) values ('Arabian Nights', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
 In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '075154025-0', 11, 11, 10, 10, 13, 11);
@@ -299,3 +300,8 @@ insert into products (name, description, code, price, geur_id, deksel_id, access
 In congue. Etiam justo. Etiam pretium iaculis justo.
 
 In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '215230361-X', 14.5, 12, 13, 14, 12, 10);
+
+
+--CONTENTS VAN GEUREN
+
+insert into geursoorten (name) values ("vanille");
