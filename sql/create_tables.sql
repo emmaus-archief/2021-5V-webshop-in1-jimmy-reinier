@@ -1,4 +1,6 @@
-DROP DATABASE IF EXISTS products;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS geur;
+DROP TABLE IF EXISTS deksel;
 CREATE TABLE products (
   id SERIAL PRIMARY KEY,
   code VARCHAR(15),
@@ -6,10 +8,7 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2),
   geur_id INTEGER,
-  deksel_id INTEGER,
-  accessoire_id INTEGER,
-  regio_id INTEGER,
-  maten_id INTEGER
+  deksel_id INTEGER
 );
 
 CREATE TABLE geur (
@@ -36,3 +35,4 @@ CREATE TABLE maten (
   id SERIAL PRIMARY KEY,
   maten_grootte TEXT
 );
+
