@@ -6,8 +6,7 @@ CREATE TABLE products (
   code VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
-  price NUMERIC(10, 2),
-  geur_id INTEGER,
+  price NUMERIC(10, 2  geur_id INTEGER,
   deksel_id INTEGER
 );
 
