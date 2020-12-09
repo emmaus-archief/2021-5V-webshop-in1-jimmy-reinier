@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- generared using
 -- curl "https://api.mockaroo.com/api/910b6c20?count=100&key=90eac760" > seed.sql
 --
@@ -19,6 +20,21 @@ values ('#05010101EUS','Cube','Een simpele kubus. Scherpe hoeken voor een scherp
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('13925-100', 'etium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', 455, 2, 3);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
+=======
+INSERT INTO products (code, name, description, price, geur_id, deksel_id)
+VALUES ('#01010101EUS', 'The Bottle', 'De originele Bottle van onze collectie, met een tijdloze en onopvallend design, past het perfect in elke ruimte.', 49.99, 01, 01);
+INSERT INTO products (code, name, description, price, geur_id, deksel_id)
+VALUES ('#02010101EUS', 'Magic Ball', 'Deze elegante bal geeft uw kamer onmiddelijk een fijne geur naar uw keuze.', 119, 01,01);
+INSERT INTO products (code, name, description, price, geur_id, deksel_id)
+VALUES ('#03010101EUS', 'Pentagonal Bliss', 'Vijfhoeken zijn in. Geef je kamer een frisse geur.',89,01,01 );
+INSERT INTO products (code, name, description, price, geur_id, deksel_id)
+VALUES ('#03010101EUS', 'Cilinder', 'Het is een cilinder, met een geur.',59.99,01,01);
+insert into products (code, name, description, price, geur_id, deksel_id) 
+values ('24286-5191', 'rem id ligula suspendisse', 459, 2, 2);
+insert into products (code, name, description, price, geur_id, deksel_id) 
+values ('13925-100', ' etium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', 455, 2, 3);
+insert into products (code, name, description, price, geur_id, deksel_id) 
+>>>>>>> 52a5bd3daae2824bf34c31e00e830d2e0ad7534a
 values ('0781-7066', 'Balearica pavonina', 'turpis integer aliquet massa id lobortis convallis', 312, 3, 2);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('51393-7223', 'Lepus arcticus', 'ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus', 135, 3, 1);
@@ -38,22 +54,47 @@ values ('16590-147', 'a suspendisse ornare consequat lectus in est risus auctor 
 
 --CONTENTS VAN GEUREN
 
-INSERT INTO geur (geur_naam) VALUES ('Sweet Aroma');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Sweet Aroma', 'dit is aroma.');
 INSERT INTO geur (geur_naam) VALUES ('Fresh Scent');
 INSERT INTO geur (geur_naam) VALUES ('New Fragrant');
+INSERT INTO geur (geur_naam) VALUES ('Savannah Steppes');
+INSERT INTO geur (geur_naam) VALUES ('Antarctic Freeze');
+INSERT INTO geur (geur_naam) VALUES ('Lively Lavender');
+
 
 --deksels
 
 INSERT INTO deksel (deksel_kleur) VALUES ('Ocean Blue');
 INSERT INTO deksel (deksel_kleur) VALUES ('Strawberry Red');
 INSERT INTO deksel (deksel_kleur) VALUES ('Forest Green');
+INSERT INTO deksel (deksel_kleur) VALUES ('Honeycomb Yellow');
+INSERT INTO deksel (deksel_kleur) VALUES ('Heavenly White')
+
+--accessoires
+
+INSERT INTO accessoires (accessoire_naam) VALUES ('Verlichte versie');
+INSERT INTO accessoires (accessoire_naam) VALUES ('Kerstmuts');
+INSERT INTO accessoires (accessoire_naam) VALUES ('')
+
+--regio
+
+INSERT INTO regio (regio_naam) VALUES ('Europa');
+INSERT INTO regio (regio_naam) VALUES ('Noord-Amerika');
+INSERT INTO regio (regio_naam) VALUES ('Zuid-Amerika');
+INSERT INTO regio (regio_naam) VALUES ('Afrika');
+INSERT INTO regio (regio_naam) VALUES ('Azie');
+INSERT INTO regio (regio_naam) VALUES ('Oceanie');
+INSERT INTO regio (regio_naam) VALUES ('Antarctica');
+
+--maten
+
+INSERT INTO maten (maten_grootte) VALUES ('S');
+INSERT INTO maten (maten_grootte) VALUES ('M');
+INSERT INTO maten (maten_grootte) VALUES ('L');
+INSERT INTO maten (maten_grootte) VALUES ('XL');
 
 
-
-
-
-
-SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, deksel.deksel_kleur FROM products 
+SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, geur.beschrijving, deksel.deksel_kleur FROM products 
 LEFT OUTER JOIN geur ON geur.id = products.geur_id
 LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id, accesoire_id, regio_id, maten_id;
 SELECT * FROM geur;
