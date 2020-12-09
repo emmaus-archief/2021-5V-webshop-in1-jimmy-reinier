@@ -20,21 +20,6 @@ values ('#05010101EUS','Cube','Een simpele kubus. Scherpe hoeken voor een scherp
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('13925-100', 'etium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', 455, 2, 3);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
-=======
-INSERT INTO products (code, name, description, price, geur_id, deksel_id)
-VALUES ('#01010101EUS', 'The Bottle', 'De originele Bottle van onze collectie, met een tijdloze en onopvallend design, past het perfect in elke ruimte.', 49.99, 01, 01);
-INSERT INTO products (code, name, description, price, geur_id, deksel_id)
-VALUES ('#02010101EUS', 'Magic Ball', 'Deze elegante bal geeft uw kamer onmiddelijk een fijne geur naar uw keuze.', 119, 01,01);
-INSERT INTO products (code, name, description, price, geur_id, deksel_id)
-VALUES ('#03010101EUS', 'Pentagonal Bliss', 'Vijfhoeken zijn in. Geef je kamer een frisse geur.',89,01,01 );
-INSERT INTO products (code, name, description, price, geur_id, deksel_id)
-VALUES ('#03010101EUS', 'Cilinder', 'Het is een cilinder, met een geur.',59.99,01,01);
-insert into products (code, name, description, price, geur_id, deksel_id) 
-values ('24286-5191', 'rem id ligula suspendisse', 459, 2, 2);
-insert into products (code, name, description, price, geur_id, deksel_id) 
-values ('13925-100', ' etium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', 455, 2, 3);
-insert into products (code, name, description, price, geur_id, deksel_id) 
->>>>>>> 52a5bd3daae2824bf34c31e00e830d2e0ad7534a
 values ('0781-7066', 'Balearica pavonina', 'turpis integer aliquet massa id lobortis convallis', 312, 3, 2);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('51393-7223', 'Lepus arcticus', 'ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus', 135, 3, 1);
