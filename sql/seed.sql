@@ -70,7 +70,7 @@ INSERT INTO maten (maten_grootte) VALUES ('L');
 INSERT INTO maten (maten_grootte) VALUES ('XL');
 
 
-SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, geur.beschrijving, deksel.deksel_kleur FROM products 
+SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, deksel.deksel_kleur FROM products 
 LEFT OUTER JOIN geur ON geur.id = products.geur_id
 LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id;
 SELECT * FROM geur;
