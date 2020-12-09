@@ -8,11 +8,15 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2),
   geur_id INTEGER,
-  deksel_id INTEGER
+  deksel_id INTEGER,
+  accessoire_id INTEGER,
+  regio_id INTEGER,
+  maten_id INTEGER
 );
 
 CREATE TABLE geur (
   id SERIAL PRIMARY KEY,
+  beschrijving TEXT,
   geur_naam TEXT
 );
 

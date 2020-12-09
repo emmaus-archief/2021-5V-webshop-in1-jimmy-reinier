@@ -1,11 +1,3 @@
--- generared using
--- curl "https://api.mockaroo.com/api/910b6c20?count=100&key=90eac760" > seed.sql
---
--- want different data? check: https://www.mockaroo.com/910b6c20
---
-
---products
-
 INSERT INTO products (code, name, description, price, geur_id, deksel_id)
 VALUES ('#01010101EUS', 'The Bottle', 'De originele Bottle van onze collectie, met een tijdloze en onopvallend design, past het perfect in elke ruimte.', 49.99, 01, 01);
 INSERT INTO products (code, name, description, price, geur_id, deksel_id)
@@ -38,22 +30,47 @@ values ('16590-147', 'a suspendisse ornare consequat lectus in est risus auctor 
 
 --CONTENTS VAN GEUREN
 
-INSERT INTO geur (geur_naam) VALUES ('Sweet Aroma');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Sweet Aroma', 'dit is aroma.');
 INSERT INTO geur (geur_naam) VALUES ('Fresh Scent');
 INSERT INTO geur (geur_naam) VALUES ('New Fragrant');
+INSERT INTO geur (geur_naam) VALUES ('Savannah Steppes');
+INSERT INTO geur (geur_naam) VALUES ('Antarctic Freeze');
+INSERT INTO geur (geur_naam) VALUES ('Lively Lavender');
+
 
 --deksels
 
 INSERT INTO deksel (deksel_kleur) VALUES ('Ocean Blue');
 INSERT INTO deksel (deksel_kleur) VALUES ('Strawberry Red');
 INSERT INTO deksel (deksel_kleur) VALUES ('Forest Green');
+INSERT INTO deksel (deksel_kleur) VALUES ('Honeycomb Yellow');
+INSERT INTO deksel (deksel_kleur) VALUES ('Heavenly White')
+
+--accessoires
+
+INSERT INTO accessoires (accessoire_naam) VALUES ('Verlichte versie');
+INSERT INTO accessoires (accessoire_naam) VALUES ('Kerstmuts');
+INSERT INTO accessoires (accessoire_naam) VALUES ('')
+
+--regio
+
+INSERT INTO regio (regio_naam) VALUES ('Europa');
+INSERT INTO regio (regio_naam) VALUES ('Noord-Amerika');
+INSERT INTO regio (regio_naam) VALUES ('Zuid-Amerika');
+INSERT INTO regio (regio_naam) VALUES ('Afrika');
+INSERT INTO regio (regio_naam) VALUES ('Azie');
+INSERT INTO regio (regio_naam) VALUES ('Oceanie');
+INSERT INTO regio (regio_naam) VALUES ('Antarctica');
+
+--maten
+
+INSERT INTO maten (maten_grootte) VALUES ('S');
+INSERT INTO maten (maten_grootte) VALUES ('M');
+INSERT INTO maten (maten_grootte) VALUES ('L');
+INSERT INTO maten (maten_grootte) VALUES ('XL');
 
 
-
-
-
-
-SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, deksel.deksel_kleur FROM products 
+SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, geur.beschrijving, deksel.deksel_kleur FROM products 
 LEFT OUTER JOIN geur ON geur.id = products.geur_id
 LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id;
 SELECT * FROM geur;
