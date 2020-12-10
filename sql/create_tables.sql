@@ -11,15 +11,18 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2),
   geur_id INTEGER,
+<<<<<<< HEAD
   deksel_id INTEGER,
   accessoire_id INTEGER,
   regio_id INTEGER,
   maten_id INTEGER
+=======
+  deksel_id INTEGER
+>>>>>>> 6e0d3537fdce546a2e888a8dba8c2a0546a93e97
 );
 
 CREATE TABLE geur (
   id SERIAL PRIMARY KEY,
-  beschrijving TEXT,
   geur_naam TEXT
 );
 
