@@ -18,7 +18,7 @@ VALUES ('#04010101EUS', 'Cilinder', 'Het is een cilinder, met een geur.',59.99,0
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('#05010101EUS','Cube','Een simpele kubus. Scherpe hoeken voor een scherpe geur.',69.99,01,01,01,01,01);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
-values ('13925-100', 'etium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', 455, 2, 3);
+values ('#06010101EUS','Pyramid','',69.99,01,01,01,01,01);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
 values ('0781-7066', 'Balearica pavonina', 'turpis integer aliquet massa id lobortis convallis', 312, 3, 2);
 insert into products (code, name, description, price, geur_id, deksel_id, accesoire_id, regio_id, maten_id) 
@@ -40,11 +40,11 @@ values ('16590-147', 'a suspendisse ornare consequat lectus in est risus auctor 
 --CONTENTS VAN GEUREN
 
 INSERT INTO geur (geur_naam, beschrijving) VALUES ('Sweet Aroma', 'dit is aroma.');
-INSERT INTO geur (geur_naam) VALUES ('Fresh Scent');
-INSERT INTO geur (geur_naam) VALUES ('New Fragrant');
-INSERT INTO geur (geur_naam) VALUES ('Savannah Steppes');
-INSERT INTO geur (geur_naam) VALUES ('Antarctic Freeze');
-INSERT INTO geur (geur_naam) VALUES ('Lively Lavender');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Fresh Scent');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('New Fragrant', 'Nieuwe Kleur, Who dis.');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Savannah Steppes', '');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Antarctic Freeze', 'Kijk uit dat je niet bevriest.');
+INSERT INTO geur (geur_naam, beschrijving) VALUES ('Lively Lavender', 'Ruikt lekker naar de verse was.');
 
 
 --deksels
@@ -79,7 +79,7 @@ INSERT INTO maten (maten_grootte) VALUES ('L');
 INSERT INTO maten (maten_grootte) VALUES ('XL');
 
 
-SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, geur.beschrijving, deksel.deksel_kleur FROM products 
+SELECT products.id, products.code, products.name, products.description, products.price, geur.geur_naam, beschrijving, geur.beschrijving, deksel.deksel_kleur FROM products 
 LEFT OUTER JOIN geur ON geur.id = products.geur_id
 LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id, accesoire_id, regio_id, maten_id;
 SELECT * FROM geur;
