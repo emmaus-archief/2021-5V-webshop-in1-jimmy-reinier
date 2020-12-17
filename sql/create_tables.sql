@@ -20,7 +20,7 @@ CREATE TABLE products (
 CREATE TABLE geur (
   id SERIAL PRIMARY KEY,
   geur_naam TEXT,
-  beschrijving TEXT
+  geur_beschrijving TEXT
 );
 
 CREATE TABLE deksel (
@@ -42,4 +42,31 @@ CREATE TABLE maten (
   id SERIAL PRIMARY KEY,
   maten_grootte TEXT
 );
+
+--alle informatie van een artikel
+SELECT * FROM products 
+LEFT OUTER JOIN geur ON geur.id = products.geur_id 
+LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id
+LEFT OUTER JOIN accessoire ON accessoire.id = products.accessoire_id 
+LEFT OUTER JOIN regio ON regio.id = products.regio_id
+LEFT OUTER JOIN maten ON maten.id = products.maten_id;
+
+--relevante informatie van een artikel
+SELECT products.id, products.code, products.name, products.description, price, geur.geur_naam, accessoire.accessoire_naam, regio.regio_naam, maten.maten_grootte FROM products 
+LEFT OUTER JOIN geur ON geur.id = products.geur_id 
+LEFT OUTER JOIN deksel ON deksel.id = products.deksel_id
+LEFT OUTER JOIN accessoire ON accessoire.id = products.accessoire_id 
+LEFT OUTER JOIN regio ON regio.id = products.regio_id
+LEFT OUTER JOIN maten ON maten.id = products.maten_id;
+
+--meer producten uit deze regio
+SELECT products.name AS Meer_producten_uit_deze_regio, products.price FROM products 
+LEFT OUTER JOIN regio ON regio.id = products.regio_id 
+WHERE regio.id = 1;
+
+--meer producten met de geur: Sweet Aroma
+SELECT products.name AS meer_producten_met_geur_Sweet_Aroma, products.price FROM products 
+LEFT OUTER JOIN geur ON geur.id = products.geur_id 
+WHERE geur.id = 1;
+
 

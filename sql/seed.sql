@@ -7,7 +7,6 @@
 
 --products
 
-
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
 VALUES ('#010101EUS', 'The Bottle', 'De originele Bottle van onze collectie, met een tijdloze en onopvallend design, past het perfect in elke ruimte.', 49.99, 1, 1, 1, 1, 1);
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
@@ -23,13 +22,12 @@ values ('#060101AFS','Pharaoric Pyramid','Voel je als een Farao met deze piramid
 
 --CONTENTS VAN GEUREN
 
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Sweet Aroma', 'Net alsof je een snoepwinkel binnen komt.');
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Fresh Scent', 'So Fresh So Clean.');
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('New Fragrant', 'Nieuwe Kleur, Who dis.');
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Savannah Steppes', 'Mooi desert voor bij je dessert.');
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Antarctic Freeze', 'Kijk uit dat je niet bevriest.');
-INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Lively Lavender', 'Ruikt lekker naar de verse was.');
-
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('Sweet Aroma', 'Net alsof je een snoepwinkel binnen komt.');
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('Fresh Scent', 'So Fresh So Clean.');
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('New Fragrant', 'Nieuwe Kleur, Who dis.');
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('Savannah Steppes', 'Mooi desert voor bij je dessert.');
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('Antarctic Freeze', 'Kijk uit dat je niet bevriest.');
+INSERT INTO geur (geur_naam, geur_beschrijving) VALUES ('Lively Lavender', 'Ruikt lekker naar de verse was.');
 
 --deksels
 
@@ -81,5 +79,5 @@ SELECT products.name AS meer_producten_met_geur_Sweet_Aroma, products.price FROM
 LEFT OUTER JOIN geur ON geur.id = products.geur_id 
 WHERE geur.id = 1;
 
---meer producten 
+
 
