@@ -23,12 +23,12 @@ values ('#030101NAS','Pyramid','het is een pyramide.', 49.99, 3, 1, 1, 2, 1);
 
 --CONTENTS VAN GEUREN
 
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('Sweet Aroma', 'Net alsof je een snoepwinkel binnen komt.');
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('Fresh Scent', 'So Fresh So Clean.');
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('New Fragrant', 'Nieuwe Kleur, Who dis.');
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('Savannah Steppes', 'Mooi desert voor bij je dessert.');
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('Antarctic Freeze', 'Kijk uit dat je niet bevriest.');
-INSERT INTO geur (geur_naam, beschrijving) VALUES ('Lively Lavender', 'Ruikt lekker naar de verse was.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Sweet Aroma', 'Net alsof je een snoepwinkel binnen komt.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Fresh Scent', 'So Fresh So Clean.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('New Fragrant', 'Nieuwe Kleur, Who dis.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Savannah Steppes', 'Mooi desert voor bij je dessert.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Antarctic Freeze', 'Kijk uit dat je niet bevriest.');
+INSERT INTO geur (geur_naam, geur.beschrijving) VALUES ('Lively Lavender', 'Ruikt lekker naar de verse was.');
 
 
 --deksels
@@ -76,9 +76,10 @@ SELECT products.name AS Meer_producten_uit_deze_regio, products.price FROM produ
 LEFT OUTER JOIN regio ON regio.id = products.regio_id 
 WHERE regio.id = 1;
 
---meer producten met deze geur
-SELECT products.name AS meer_producten_met_deze_geur, products.price FROM products 
+--meer producten met de geur: Sweet Aroma
+SELECT products.name AS meer_producten_met_geur_Sweet_Aroma, products.price FROM products 
 LEFT OUTER JOIN geur ON geur.id = products.geur_id 
 WHERE geur.id = 1;
 
+--meer producten 
 
