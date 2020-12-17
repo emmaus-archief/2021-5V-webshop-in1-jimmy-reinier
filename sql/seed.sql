@@ -11,15 +11,15 @@
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
 VALUES ('#010101EUS', 'The Bottle', 'De originele Bottle van onze collectie, met een tijdloze en onopvallend design, past het perfect in elke ruimte.', 49.99, 1, 1, 1, 1, 1);
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
-VALUES ('#010101EUS', 'Magic Ball', 'Deze elegante bal geeft uw kamer onmiddelijk een fijne geur naar uw keuze.', 59.99, 1, 1, 1, 1, 1);
+VALUES ('#020101EUS', 'Magic Ball', 'Deze elegante bal geeft uw kamer onmiddelijk een fijne geur naar uw keuze.', 59.99, 1, 1, 1, 1, 1);
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
-VALUES ('#030101EUS', 'Pentagonal Bliss', 'Vijfhoeken zijn in. Geef je kamer een frisse geur.', 69.99, 3, 1, 1, 1, 1);
+VALUES ('#030101AFS', 'Pentagonal Bliss', 'Vijfhoeken zijn in. Geef je kamer een frisse geur.', 69.99, 3, 1, 1, 3, 1);
 INSERT INTO products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id)
-VALUES ('#010101EUS', 'Cilinder', 'Het is een cilinder, met een geur.', 79.99, 3, 1, 1, 1, 1);
+VALUES ('#040101NAS', 'Cilinder', 'Het is een cilinder, met een geur.', 79.99, 3, 1, 1, 2, 1);
 insert into products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) 
-values ('#010101EUS','Cube','Een simpele kubus. Scherpe hoeken voor een scherpe geur.', 89.99, 3, 1, 1, 1, 1);
+values ('#050101NAS','Clean Cube','Een simpele kubus. Scherpe hoeken voor een scherpe geur.', 89.99, 3, 1, 1, 2, 1);
 insert into products (code, name, description, price, geur_id, deksel_id, accessoire_id, regio_id, maten_id) 
-values ('#030101NAS','Pyramid','het is een pyramide.', 49.99, 3, 1, 1, 2, 1);
+values ('#060101AFS','Pharaoric Pyramid','Voel je als een Farao met deze piramide.', 49.99, 3, 1, 1, 3, 1);
 
 --CONTENTS VAN GEUREN
 
@@ -50,8 +50,8 @@ INSERT INTO accessoire (accessoire_naam) VALUES ('Zomer Hoed');
 
 INSERT INTO regio (regio_naam) VALUES ('Europa');
 INSERT INTO regio (regio_naam) VALUES ('Noord-Amerika');
-INSERT INTO regio (regio_naam) VALUES ('Zuid-Amerika');
 INSERT INTO regio (regio_naam) VALUES ('Afrika');
+INSERT INTO regio (regio_naam) VALUES ('Zuid-Amerika');
 INSERT INTO regio (regio_naam) VALUES ('Azie');
 INSERT INTO regio (regio_naam) VALUES ('Oceanie');
 INSERT INTO regio (regio_naam) VALUES ('Antarctica');
